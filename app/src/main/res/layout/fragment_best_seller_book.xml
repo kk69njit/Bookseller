@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/book_image"
         app:layout_constraintStart_toStartOf="parent"
         android:textStyle="bold"
-        android:textAlignment="center"
+        android:fontFamily="sans-serif"
         />
 
     <TextView
@@ -48,7 +48,6 @@
         android:textAppearance="?attr/textAppearanceListItem"
         app:layout_constraintTop_toBottomOf="@+id/book_title"
         app:layout_constraintStart_toStartOf="parent"
-        android:textAlignment="center"
         />
 
     <TextView
